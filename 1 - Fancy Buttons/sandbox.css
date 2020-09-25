@@ -273,3 +273,100 @@
         right: 1.2em;
         opacity: 100%;
     }
+
+/* =========================
+   TOGGLE SWITCH UI BUTTONS
+   ========================= */
+
+.toggle-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 0 0;
+}
+    .toggle-1__input {
+        display: none;
+    }
+    .toggle-1__button {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        background-color: #f2395a;
+        border:1px solid #f2395a;
+        color: #ffffff;
+        width: 80px;
+        height: 30px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .toggle-1__button::before {
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        right: auto;
+        display: inline-block;
+        height: 20px;
+        padding: 0 3px;
+        background-color: #ffffff;
+        color: #f2395a;
+        content: "off";
+        transition: all 0.3s ease;
+    }
+    .toggle-1__input:checked + .toggle-1__button {
+        background-color: #00b3b4;
+        border:1px solid #00b3b4;
+      }
+      .toggle-1__input:checked + .toggle-1__button:before {
+        left: 5px;
+        content: "on";
+        color: #00b3b4;
+      }
+
+
+
+
+
+.toggle-2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+    .toggle-2__input {
+        display: none;
+    }
+    .toggle-2__button {
+        position: relative;
+        display: inline-block;
+        line-height: 20px;
+        text-transform: uppercase;
+        background-color: #ffffff;
+        color: #aaaaaa;
+        border: 1px solid #cccccc;
+        padding: 5px 10px 5px 30px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .toggle-2__button:before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: auto;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #cccccc;
+        content: "";
+        transition: all 0.3s ease;
+    }
+    .toggle-2__input:checked + .toggle-2__button {
+        background-color: #00b3b4;
+        border-color: #00b3b4;
+        color: #ffffff;
+    }
+    .toggle-2__input:checked + .toggle-2__button:before {
+        background-color: #ffffff;
+    }
