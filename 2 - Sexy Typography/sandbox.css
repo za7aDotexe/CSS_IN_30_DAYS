@@ -5,14 +5,39 @@
    ====================================== */
 
 /* =========================
-    SHADOW TYPO
+        SHADOW TYPO
 ========================= */
 
 .shadow-typo {
     position: relative;
     display: inline-block;
-    font-size: 6em;
+    font-size: 6rem;
     text-transform: uppercase;
     color: #00b3b4;
     text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0, 0, 0, 0.1);
-  }
+}
+
+/* =========================
+        THREE-D TYPO
+========================= */
+
+.threedee-typo {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #f2395a;
+    transform:          skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform:  skew(-5deg, -5deg) rotate(5deg);
+    transform-origin:           center center;
+    -webkit-transform-origin:   center center;
+    text-shadow:    1px 1px #d10e33,
+                    2px 2px #d10e33,
+                    3px 3px #d10e33,
+                    4px 4px #d10e33,
+                    5px 5px #d10e33,
+                    6px 6px #d10e33,
+                    7px 7px #d10e33,
+                    8px 8px #890920,
+                    9px 9px #890920,
+                    10px 10px #890920,
+                    11px 11px 15px rgba(0,0,0,0.5);
+}
