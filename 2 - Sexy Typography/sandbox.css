@@ -3,3 +3,16 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* =========================
+    SHADOW TYPO
+========================= */
+
+.shadow-typo {
+    position: relative;
+    display: inline-block;
+    font-size: 6em;
+    text-transform: uppercase;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  }
