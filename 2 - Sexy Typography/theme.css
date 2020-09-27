@@ -30,7 +30,7 @@ body {
     width: 400px;
     top: 20px;
     right: 30px;
-    background: url('./CSS30_Logo.png') no-repeat;
+    background: url('./img/CSS30_Logo.png') no-repeat;
     background-size: 100%;
     opacity: .2;
   }
@@ -260,7 +260,6 @@ a.button-theme {
     color: #007a7b;
     text-shadow: none;
   }
-
 
 .sandbox,
 .final-result,
